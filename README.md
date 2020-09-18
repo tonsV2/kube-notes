@@ -161,6 +161,10 @@ helm plugin install https://github.com/chartmuseum/helm-push.git
 ```
 
 # Install WhoAmI - A simple application which will return the hostname of the pods it's running on
+This app can serve as a simple example of the relation between a `deployment`, `service` and `ingress` resource. For a more detailed explanation please see the below url.
+
+`https://medium.com/@dwdraju/how-deployment-service-ingress-are-related-in-their-manifest-a2e553cf0ffb`
+
 Use git to clone or fork the below reository
 
 `https://github.com/tonsV2/whoami-mn`
