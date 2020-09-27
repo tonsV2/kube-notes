@@ -6,7 +6,8 @@ curl -sfL https://get.k3s.io | sh -
 
 ## Configure kubectl
 ```bash
-sudo cp /etc/rancher/k3s/k3s.yaml .kube/
+sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/
+sudo chown tons.tons ~/.kube/k3s.yaml
 export KUBECONFIG=$HOME/.kube/k3s.yaml
 ```
 
