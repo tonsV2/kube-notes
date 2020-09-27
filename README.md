@@ -62,7 +62,7 @@ spec:
 " | kubectl apply --validate=false -f -
 ```
 
-# Dashboard
+# Dashboard (Optional)
 * https://rancher.com/docs/k3s/latest/en/installation/kube-dashboard/
 
 ## Install the Dashboard
@@ -114,10 +114,10 @@ Open the below url in your favorite browser
 
 `http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/logi`
 
-# Helmfile - docker-compose for Kubernetes
+# Helmfile - docker-compose for Kubernetes (Optional)
 https://github.com/roboll/helmfile#installation
 
-# Chartmuseum - Helm Chart Repository
+# Chartmuseum - Helm Chart Repository (Optional)
 Export `HARTMUSEUM_AUTH_USER` and `HARTMUSEUM_AUTH_PASS` with your desired username and password
 
 Use your favorite editor to save the below snippet in a file called helmfile.yaml
