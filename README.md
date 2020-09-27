@@ -19,7 +19,7 @@ kubectl get nodes
 # Helm - The Kubernetes Package Manager
 See https://helm.sh/docs/intro/quickstart/
 
-# SSL - Lets Encrypt
+# SSL - Lets Encrypt (Optional)
 * https://pascalw.me/blog/2019/07/02/k3s-https-letsencrypt.html
 * https://www.thebookofjoel.com/k3s-cert-manager-letsencrypt
 
