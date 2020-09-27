@@ -63,6 +63,8 @@ spec:
 ```
 
 # Dashboard (Optional)
+There are quite a few options when it comes to Kubernetes dashboards. I recommend using either the official one or [Lens](https://k8slens.dev/).
+
 * https://rancher.com/docs/k3s/latest/en/installation/kube-dashboard/
 
 ## Install the Dashboard
