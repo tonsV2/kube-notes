@@ -21,8 +21,12 @@ https://github.com/tonsV2/aws-ec2
 * Open ports
 * Copy configure
 
+# Alternative clients
+* K9s
+* Lens
+
 # App
-* whoami go?
+https://github.com/tonsV2/whoami-go/
 
 # Docker
 * $ docker run
