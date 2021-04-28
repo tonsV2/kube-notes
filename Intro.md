@@ -1,28 +1,45 @@
-Create ec2
+# Agenda
+* Create VM
+* Install K3s
+* Launch an app
+
+# Disclaimer
+I'm not certified!
+
+# Create ec2
 * SSH
-* SG
 
 https://github.com/tonsV2/aws-ec2
 
-K3s
+# Install K3s
+* curl -sfL https://get.k3s.io | sh -
+
+# Configure access
 * Kubectl
 
-https://github.com/tonsV2/kube-notes
+# Remote access
+* Open ports
+* Copy configure
 
-App
+# App
 * whoami go?
 
-Docker
-* Simple docker file
+# Docker
+* $ docker run
 
-Docker compose
-* Simple docker compose file
+# Launch app
 
-Helm
+https://dwdraju.medium.com/how-deployment-service-ingress-are-related-in-their-manifest-a2e553cf0ffb
+
+* Deployment
+* Service
+* Ingress
+
+# Helm
 * Helm create
 * Adjust deployment
 * Adjust service
 * Adjust ingress
 
-Helmfile
+# Helmfile
 * Simple helmfile
