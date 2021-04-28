@@ -33,11 +33,16 @@ https://github.com/tonsV2/whoami-go/
 
 # Launch app
 
+## Resources
 https://dwdraju.medium.com/how-deployment-service-ingress-are-related-in-their-manifest-a2e553cf0ffb
 
+## For our app
 * Deployment
 * Service
 * Ingress
+
+## Replicas
+* Launch 3 instances
 
 # Helm
 * Helm create
